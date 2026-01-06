@@ -47,15 +47,6 @@ Computer Science Engineering undergraduate focused on **building real-world soft
 
 ---
 
-## 🧮 Languages Usage (GitHub)
-
-> Distribution of programming languages based on my GitHub repositories.  
-> Auto-generated from real code, not manual input.
-
-![Stats](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=shikhar11x&show_icons=true&hide_border=true&theme=dark)
-
----
-
 ## 🧩 Projects
 
 ### 🛒 ShopLink – E-commerce Application  
@@ -79,26 +70,6 @@ Computer Science Engineering undergraduate focused on **building real-world soft
 
 ---
 
-## 📈 GitHub Stats
-
-![Stats](https://github-readme-stats.vercel.app/api?username=shikhar11x&show_icons=true&theme=github_dark)
-
----
-
-## 📚 Certifications
-- Google UX Design Professional Certificate  
-- Google AI Essentials  
-
----
-
-## 🧠 Philosophy
-- Code > Certificates  
-- Projects > Theory  
-- Consistency > Motivation  
-- Build → Break → Learn  
-
----
-
 ## 🔗 Connect
 - 🌐 GitHub: https://github.com/shikhar11x  
 - 💼 LinkedIn: https://www.linkedin.com/in/shikharbajpai1/  
@@ -106,5 +77,3 @@ Computer Science Engineering undergraduate focused on **building real-world soft
 - 📧 Email: shikhar11x@gmail.com  
 
 ---
-
-> “Write code that survives refactors, not resumes.”
