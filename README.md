@@ -25,25 +25,43 @@ Computer Science Engineering undergraduate focused on **building real-world soft
 
 ## 🛠️ Tech Stack
 
-### Languages
-- Java
-- Python
-- C++
-- JavaScript
-- Dart
+<h2>🛠️ Tech Stack</h2>
 
-### Technologies / Frameworks
-- HTML, CSS
-- React, Next.js
-- Flutter
-- Node.js
+<div style="display:flex; gap:20px; flex-wrap:wrap;">
 
-### Tools
-- Git & GitHub
-- VS Code
-- Android Studio
-- IntelliJ / PyCharm
-- Figma, Canva
+  <div style="flex:1; min-width:250px; border:1px solid #30363d; border-radius:10px; padding:15px;">
+    <h3>Languages</h3>
+    <ul>
+      <li>Java</li>
+      <li>Python</li>
+      <li>C++</li>
+      <li>JavaScript</li>
+      <li>Dart</li>
+    </ul>
+  </div>
+
+  <div style="flex:1; min-width:250px; border:1px solid #30363d; border-radius:10px; padding:15px;">
+    <h3>Technologies / Frameworks</h3>
+    <ul>
+      <li>HTML, CSS</li>
+      <li>React, Next.js</li>
+      <li>Flutter</li>
+      <li>Node.js</li>
+    </ul>
+  </div>
+
+  <div style="flex:1; min-width:250px; border:1px solid #30363d; border-radius:10px; padding:15px;">
+    <h3>Tools</h3>
+    <ul>
+      <li>Git & GitHub</li>
+      <li>VS Code</li>
+      <li>Android Studio</li>
+      <li>IntelliJ / PyCharm</li>
+      <li>Figma, Canva</li>
+    </ul>
+  </div>
+
+</div>
 
 ---
 
