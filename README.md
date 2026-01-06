@@ -1,4 +1,4 @@
-# Hi 👋, I'm Shikhar Bajpai  
+# Hi, I'm Shikhar Bajpai  
 
 🎓 B.Tech CSE Student | 💻 Developer  
 🚀 Passionate about building useful products & learning new tech  
