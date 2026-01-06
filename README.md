@@ -1,62 +1,110 @@
-# Hi, I'm Shikhar Bajpai  
+# Shikhar Bajpai
 
-🎓 B.Tech CSE Student | 💻 Developer  
-🚀 Passionate about building useful products & learning new tech  
-
----
-
-## 👨‍💻 About Me  
-- 🎓 B.Tech in Computer Science Engineering (2023–2027)  
-- 💻 Interested in App Development, Web Development  
-- 🧠 Learning DSA, Java & Full-Stack Development  
-- 🏆 Active in Hackathons & Designathons  
+Computer Science Engineering undergraduate focused on **building real-world software**,  
+**strong fundamentals**, and **clean, maintainable code**.
 
 ---
 
-## 🛠️ Tech Stack  
-
-**Languages**  
-- Java  
-- C++  
-- JavaScript  
-
-**Frontend**  
-- HTML  
-- CSS  
-- React (Basics)  
-
-**Design Tools**  
-- Figma  
-- Canva  
-
-**Others**  
-- Git & GitHub  
-- VS Code  
+## ⚙️ Core Focus
+- Data Structures & Algorithms
+- Backend & System Fundamentals
+- Full-Stack Web & App Development
+- UI Engineering with UX Thinking
+- Hackathon & Project-based Learning
 
 ---
 
-## 📌 Projects  
-- 🛒 **E-commerce App (Academic Project)**  
-- 🚇 **Delhi Metro App UI Redesign**  
-- 🎮 **Game Concepts for Hackathons**  
-- 📚 **E-Learning Platform Website**  
-
-*(More coming soon 🚀)*  
-
----
-
-## 📊 GitHub Stats  
-![Shikhar's GitHub stats](https://github-readme-stats.vercel.app/api?username=shikhar11x&show_icons=true&theme=tokyonight)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=shikhar11x&layout=compact&theme=tokyonight)
+## 🧠 About Me
+- 🎓 B.Tech CSE @ KR Mangalam University (2023–2027) | CGPA: 8.04  
+- 🎨 UI/UX Designer with real project & freelance experience  
+- 💻 Building complete products: design → logic → implementation  
+- 🏆 Top 8 / 250+ teams – *Design-A-Thon ’24*  
+- 🚀 Consistently learning by shipping projects
 
 ---
 
-## 🌐 Connect With Me  
-- 💼 LinkedIn: *(add link)*  
-- 🎨 Portfolio: *(coming soon)*  
-- 📧 Email: *(add email)*  
+## 🛠️ Tech Stack
+
+### Languages
+- Java
+- Python
+- C++
+- JavaScript
+- Dart
+
+### Technologies / Frameworks
+- HTML, CSS
+- React, Next.js
+- Flutter
+- Node.js
+
+### Tools
+- Git & GitHub
+- VS Code
+- Android Studio
+- IntelliJ / PyCharm
+- Figma, Canva
 
 ---
 
-⭐ *If you like my work, consider starring my repositories!*  
+## 🧮 Languages Usage (GitHub)
+
+> Distribution of programming languages based on my GitHub repositories.  
+> Auto-generated from real code, not manual input.
+
+![Languages Used](https://github-readme-stats.vercel.app/api/top-langs/?username=shikhar11x&layout=compact&theme=github_dark&langs_count=8)
+
+---
+
+## 🧩 Projects
+
+### 🛒 ShopLink – E-commerce Application  
+**Kotlin, Firebase, Android Studio**  
+- Built for local shopkeepers to digitize inventory and connect with nearby customers  
+- Implemented authentication, real-time database & Firestore  
+
+---
+
+### 🚇 Delhi Metro (DMRC) App – UI Redesign  
+**Figma, UX Research, Prototyping**  
+- Improved navigation, accessibility & modern UI  
+- Ranked **Top 8 out of 250+ teams** at Design-A-Thon ’24  
+
+---
+
+### 💻 CodeIn – Coding Interview Platform  
+**Next.js, Tailwind CSS, Convex, Stream.io**  
+- Video interviews + real-time code editor  
+- Auth, events, and scalable UI architecture  
+
+---
+
+## 📈 GitHub Stats
+
+![Stats](https://github-readme-stats.vercel.app/api?username=shikhar11x&show_icons=true&theme=github_dark)
+
+---
+
+## 📚 Certifications
+- Google UX Design Professional Certificate  
+- Google AI Essentials  
+
+---
+
+## 🧠 Philosophy
+- Code > Certificates  
+- Projects > Theory  
+- Consistency > Motivation  
+- Build → Break → Learn  
+
+---
+
+## 🔗 Connect
+- 🌐 GitHub: https://github.com/shikhar11x  
+- 💼 LinkedIn: https://www.linkedin.com/in/shikharbajpai1/  
+- 🧠 LeetCode: https://leetcode.com/u/shikhar11X_/  
+- 📧 Email: shikhar11x@gmail.com  
+
+---
+
+> “Write code that survives refactors, not resumes.”
