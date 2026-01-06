@@ -1,16 +1,63 @@
-## Hi there 👋
+# Hi 👋, I'm Shikhar Bajpai  
 
-<!--
-**shikhar11x/shikhar11x** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🎓 B.Tech CSE Student | 💻 Developer | 🎨 UI/UX Designer  
+🚀 Passionate about building useful products & learning new tech  
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 👨‍💻 About Me  
+- 🎓 B.Tech in Computer Science Engineering (2023–2027)  
+- 🎨 UI/UX Designer (Figma, Canva)  
+- 💻 Interested in App Development, Web Development & Game Dev  
+- 🧠 Learning DSA, Java & Full-Stack Development  
+- 🏆 Active in Hackathons & Designathons  
+
+---
+
+## 🛠️ Tech Stack  
+
+**Languages**  
+- Java  
+- C  
+- JavaScript  
+
+**Frontend**  
+- HTML  
+- CSS  
+- React (Basics)  
+
+**Design Tools**  
+- Figma  
+- Canva  
+
+**Others**  
+- Git & GitHub  
+- VS Code  
+
+---
+
+## 📌 Projects  
+- 🛒 **E-commerce App (Academic Project)**  
+- 🚇 **Delhi Metro App UI Redesign**  
+- 🎮 **Game Concepts for Hackathons**  
+- 📚 **E-Learning Platform Website**  
+
+*(More coming soon 🚀)*  
+
+---
+
+## 📊 GitHub Stats  
+![Shikhar's GitHub stats](https://github-readme-stats.vercel.app/api?username=shikhar11x&show_icons=true&theme=tokyonight)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=shikhar11x&layout=compact&theme=tokyonight)
+
+---
+
+## 🌐 Connect With Me  
+- 💼 LinkedIn: *(add link)*  
+- 🎨 Portfolio: *(coming soon)*  
+- 📧 Email: *(add email)*  
+
+---
+
+⭐ *If you like my work, consider starring my repositories!*  
