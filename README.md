@@ -1,14 +1,13 @@
 # Hi 👋, I'm Shikhar Bajpai  
 
-🎓 B.Tech CSE Student | 💻 Developer | 🎨 UI/UX Designer  
+🎓 B.Tech CSE Student | 💻 Developer  
 🚀 Passionate about building useful products & learning new tech  
 
 ---
 
 ## 👨‍💻 About Me  
 - 🎓 B.Tech in Computer Science Engineering (2023–2027)  
-- 🎨 UI/UX Designer (Figma, Canva)  
-- 💻 Interested in App Development, Web Development & Game Dev  
+- 💻 Interested in App Development, Web Development  
 - 🧠 Learning DSA, Java & Full-Stack Development  
 - 🏆 Active in Hackathons & Designathons  
 
@@ -18,7 +17,7 @@
 
 **Languages**  
 - Java  
-- C  
+- C++  
 - JavaScript  
 
 **Frontend**  
