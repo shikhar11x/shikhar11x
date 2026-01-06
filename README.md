@@ -52,7 +52,7 @@ Computer Science Engineering undergraduate focused on **building real-world soft
 > Distribution of programming languages based on my GitHub repositories.  
 > Auto-generated from real code, not manual input.
 
-![Languages Used](https://github-readme-stats.vercel.app/api/top-langs/?username=shikhar11x&layout=compact&theme=github_dark&langs_count=8)
+![Stats](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=shikhar11x&show_icons=true&hide_border=true&theme=dark)
 
 ---
 
