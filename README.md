@@ -25,43 +25,25 @@ Computer Science Engineering undergraduate focused on **building real-world soft
 
 ## 🛠️ Tech Stack
 
-<h2>🛠️ Tech Stack</h2>
+### Languages
+- Java
+- Python
+- C++
+- JavaScript
+- Dart
 
-<div style="display:flex; gap:20px; flex-wrap:wrap;">
+### Technologies / Frameworks
+- HTML, CSS
+- React, Next.js
+- Flutter
+- Node.js
 
-  <div style="flex:1; min-width:250px; border:1px solid #30363d; border-radius:10px; padding:15px;">
-    <h3>Languages</h3>
-    <ul>
-      <li>Java</li>
-      <li>Python</li>
-      <li>C++</li>
-      <li>JavaScript</li>
-      <li>Dart</li>
-    </ul>
-  </div>
-
-  <div style="flex:1; min-width:250px; border:1px solid #30363d; border-radius:10px; padding:15px;">
-    <h3>Technologies / Frameworks</h3>
-    <ul>
-      <li>HTML, CSS</li>
-      <li>React, Next.js</li>
-      <li>Flutter</li>
-      <li>Node.js</li>
-    </ul>
-  </div>
-
-  <div style="flex:1; min-width:250px; border:1px solid #30363d; border-radius:10px; padding:15px;">
-    <h3>Tools</h3>
-    <ul>
-      <li>Git & GitHub</li>
-      <li>VS Code</li>
-      <li>Android Studio</li>
-      <li>IntelliJ / PyCharm</li>
-      <li>Figma, Canva</li>
-    </ul>
-  </div>
-
-</div>
+### Tools
+- Git & GitHub
+- VS Code
+- Android Studio
+- IntelliJ / PyCharm
+- Figma, Canva
 
 ---
 
@@ -89,7 +71,6 @@ Computer Science Engineering undergraduate focused on **building real-world soft
 ---
 
 ## 🔗 Connect
-- 🌐 GitHub: https://github.com/shikhar11x  
 - 💼 LinkedIn: https://www.linkedin.com/in/shikharbajpai1/  
 - 🧠 LeetCode: https://leetcode.com/u/shikhar11X_/  
 - 📧 Email: shikhar11x@gmail.com  
