@@ -2,28 +2,10 @@
   <img src="https://readme-typing-svg.herokuapp.com?color=FFFFFF&size=36&center=true&vCenter=true&width=800&speed=40&loop=false&lines=Shikhar+Bajpai"/>
 </p>
 
-Computer Science Engineering undergraduate focused on **building real-world software**,  
-**strong fundamentals**, and **clean, maintainable code**.
+<p align="center">
+  <img src="https://img.shields.io/badge/CSE%20Undergraduate-Mobile%20Dev%20%7C%20Data%20Analytics%20%7C%20Scalable%20Solutions-0A3D91?style=for-the-badge&logo=code&logoColor=white&color=E53935"/>
+</p>
 
----
-
-## ⚙️ Core Focus
-- Data Structures & Algorithms
-- Backend & System Fundamentals
-- Full-Stack Web & App Development
-- UI Engineering with UX Thinking
-- Hackathon & Project-based Learning
-
----
-
-## 🧠 About Me
-- 🎓 B.Tech CSE @ KR Mangalam University (2023–2027) | CGPA: 8.04  
-- 🎨 UI/UX Designer with real project & freelance experience  
-- 💻 Building complete products: design → logic → implementation  
-- 🏆 Top 8 / 250+ teams – *Design-A-Thon ’24*  
-- 🚀 Consistently learning by shipping projects
-
----
 
 ## 🛠️ Tech Stack  
 
@@ -57,9 +39,20 @@ Computer Science Engineering undergraduate focused on **building real-world soft
 ![Canva](https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva)
 
 
-## 🔗 Connect
-- 💼 LinkedIn: https://www.linkedin.com/in/shikharbajpai1/  
-- 🧠 LeetCode: https://leetcode.com/u/shikhar11X_/  
-- 📧 Email: shikhar11x@gmail.com  
+--- 
+
+## 🔗 Connect With Me  
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/shikharbajpai1/">
+    <img src="https://img.shields.io/badge/LinkedIn-Shikhar%20Bajpai-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+  <a href="https://leetcode.com/u/shikhar11X_/">
+    <img src="https://img.shields.io/badge/LeetCode-Profile-FFA116?style=for-the-badge&logo=leetcode&logoColor=black"/>
+  </a>
+  <a href="mailto:shikhar11x@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+  </a>
+</p> 
 
 ---
