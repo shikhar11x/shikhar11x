@@ -25,52 +25,37 @@ Computer Science Engineering undergraduate focused on **building real-world soft
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Tech Stack  
 
-### Languages
-- Java
-- Python
-- C++
-- JavaScript
-- Dart
-
-### Technologies / Frameworks
-- HTML, CSS
-- React, Next.js
-- Flutter
-- Node.js
-
-### Tools
-- Git & GitHub
-- VS Code
-- Android Studio
-- IntelliJ / PyCharm
-- Figma, Canva
+### 💻 Languages  
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 
 ---
 
-## 🧩 Projects
-
-### 🛒 ShopLink – E-commerce Application  
-**Kotlin, Firebase, Android Studio**  
-- Built for local shopkeepers to digitize inventory and connect with nearby customers  
-- Implemented authentication, real-time database & Firestore  
-
----
-
-### 🚇 Delhi Metro (DMRC) App – UI Redesign  
-**Figma, UX Research, Prototyping**  
-- Improved navigation, accessibility & modern UI  
-- Ranked **Top 8 out of 250+ teams** at Design-A-Thon ’24  
+### ⚙️ Technologies / Frameworks  
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 
 ---
 
-### 💻 CodeIn – Coding Interview Platform  
-**Next.js, Tailwind CSS, Convex, Stream.io**  
-- Video interviews + real-time code editor  
-- Auth, events, and scalable UI architecture  
+### 🧰 Tools  
+![Android Studio](https://img.shields.io/badge/Android%20Studio-3DDC84?style=for-the-badge&logo=androidstudio&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github)
+![IntelliJ](https://img.shields.io/badge/IntelliJ-000000?style=for-the-badge&logo=intellijidea)
+![PyCharm](https://img.shields.io/badge/PyCharm-000000?style=for-the-badge&logo=pycharm)
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma)
+![Canva](https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva)
 
----
 
 ## 🔗 Connect
 - 💼 LinkedIn: https://www.linkedin.com/in/shikharbajpai1/  
