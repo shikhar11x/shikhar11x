@@ -1,4 +1,6 @@
-# Shikhar Bajpai
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?color=FFFFFF&size=36&center=true&vCenter=true&width=800&speed=40&loop=false&lines=Shikhar+Bajpai"/>
+</p>
 
 Computer Science Engineering undergraduate focused on **building real-world software**,  
 **strong fundamentals**, and **clean, maintainable code**.
