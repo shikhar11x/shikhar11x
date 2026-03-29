@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/CSE%20Undergraduate-Mobile%20Dev%20%7C%20Data%20Analytics%20%7C%20Scalable%20Solutions-0A3D91?style=for-the-badge&logo=code&logoColor=white&color=E53935"/>
+  <img src="https://img.shields.io/badge/CSE%20Undergraduate-Mobile%20Dev%20%7C%20Data%20Analytics-0A3D91?style=for-the-badge&logo=code&logoColor=white&color=E53935"/>
 </p>
 
 
