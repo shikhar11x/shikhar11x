@@ -6,7 +6,11 @@
   <img src="https://img.shields.io/badge/CSE%20Undergraduate-Mobile%20Dev%20%7C%20Data%20Analytics-0A3D91?style=for-the-badge&logo=code&logoColor=white&color=E53935"/>
 </p>
 
-
+<p align="center">
+  <a href="https://shikhar-bajpai-portfolio.vercel.app/">
+    <img src="https://img.shields.io/badge/%20Portfolio-02569B?style=for-the-badge&logo=flutter&logoColor=white"/>
+  </a>
+</p>
 
 <p align="center"><b>🛠️ Tech Stack</b></p>
 
