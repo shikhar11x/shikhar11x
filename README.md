@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <a href="https://shikhar-bajpai-portfolio.vercel.app/">
+  <a href="https://www.shikhar-xi.me/">
     <img src="https://img.shields.io/badge/%20Portfolio-02569B?style=for-the-badge&logo=flutter&logoColor=white"/>
   </a>
 </p>
