@@ -1,4 +1,8 @@
 <p align="center">
+  <img src="banner.png" width="100%" />
+</p>
+
+<p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?color=FFFFFF&size=36&center=true&vCenter=true&width=800&speed=40&loop=false&lines=Shikhar+Bajpai"/>
 </p>
 
