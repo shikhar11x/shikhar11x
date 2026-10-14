@@ -12,9 +12,9 @@
   </a>
 </p>
 
-<p align="center"><b>🛠️ Tech Stack</b></p>
+<p align="center"><b> Tech Stack</b></p>
 
-<p align="center"><b>💻 Languages</b></p>
+<p align="center"><b> Languages</b></p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white"/>
@@ -27,7 +27,7 @@
 
 
 
-<p align="center"><b>⚙️ Technologies / Frameworks</b></p>
+<p align="center"><b> Technologies / Frameworks</b></p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white"/>
@@ -38,7 +38,7 @@
 </p>
 
 
-<p align="center"><b>🧰 Tools</b></p>
+<p align="center"><b> Tools</b></p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Android%20Studio-3DDC84?style=for-the-badge&logo=androidstudio&logoColor=white"/>
@@ -49,7 +49,7 @@
 </p>
 
 
-<p align="center"><b>🔗 Connect With Me</b></p>
+<p align="center"><b> Connect With Me</b></p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/shikharbajpai1/">
