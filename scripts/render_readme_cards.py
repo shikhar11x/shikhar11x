@@ -21,12 +21,15 @@ import os
 import re
 from html import escape
 
+from PIL import Image
+
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.join(HERE, "..")
 DATA = os.path.join(ROOT, "data", "contributions.json")
 OUT = os.path.join(ROOT, "cards")
 FONTS = os.path.join(ROOT, "fonts")
 PORTRAIT = os.path.join(ROOT, "shikhar-ascii.svg")
+PORTRAIT_SOURCE = os.path.join(ROOT, "source-photo.png")
 
 # ---- portfolio highlights ---------------------------------------------------
 PROJECTS = "9+"
@@ -43,8 +46,8 @@ RULE = "#38234d"
 TECH = "#941bff"
 STUDIO = "#bd3cff"
 LEARN = "#a96bff"
-PORTRAIT_BG = "#f3f3f1"
-PORTRAIT_INK = "#111111"
+PORTRAIT_INK = "#e8def2"
+PORTRAIT_SHADOW = "#a896ba"
 W = 880  # full card width, GitHub's README column at 100%
 
 SERIF = "'Instrument Serif', Georgia, serif"
@@ -158,13 +161,34 @@ def hero():
         src = f.read()
     rows = re.findall(r'<text xml:space="preserve"[^>]*\by="([\d.]+)"[^>]*>(.*?)</text>', src, re.S)
     n = len(rows)
+    cols = len(rows[0][1])
+    source = Image.open(PORTRAIT_SOURCE).convert("RGB").resize((cols, n), Image.Resampling.LANCZOS)
+    pixels = list(source.getdata())
+    ramp = " .`:-=+*cs#%@"
     portrait = []
     for i, (y, txt) in enumerate(rows):
-        # rows "print" top to bottom like a slow terminal
+        runs = []
+        run_fill = None
+        run_text = []
+        for x, char in enumerate(txt):
+            red, green, blue = pixels[i * cols + x]
+            background = blue > red * 1.18 and blue > green * 1.35
+            char_index = ramp.index(char) if char in ramp else 0
+            output_char = ramp[-1 - char_index] if char in ramp else " "
+            fill = "transparent" if background else (
+                PORTRAIT_INK if char_index < len(ramp) // 2 else PORTRAIT_SHADOW
+            )
+            if fill != run_fill and run_text:
+                runs.append(f'<tspan fill="{run_fill}">{escape("".join(run_text))}</tspan>')
+                run_text = []
+            run_fill = fill
+            run_text.append(" " if background else output_char)
+        if run_text:
+            runs.append(f'<tspan fill="{run_fill}">{escape("".join(run_text))}</tspan>')
         portrait.append(
             f'<text class="f" style="animation-delay:{0.25 + i * 0.018:.3f}s;animation-duration:.35s" '
-            f'xml:space="preserve" x="20" y="{y}" fill="{PORTRAIT_INK}" font-size="7.2" '
-            f'textLength="800" lengthAdjust="spacing">{txt}</text>'
+            f'xml:space="preserve" x="20" y="{y}" font-size="7.2" '
+            f'textLength="800" lengthAdjust="spacing">{"".join(runs)}</text>'
         )
     s = 0.41
     body = f"""
@@ -191,7 +215,6 @@ def hero():
   <text x="48" y="396" font-family="{MONO}" font-size="13" fill="{INK}">shikhar-xi.me</text>
   <text class="nu" x="186" y="396" font-family="{MONO}" font-size="13" fill="{TECH}">&#8599;</text>
 </g>
-<rect x="520" y="31" width="344" height="361" fill="{PORTRAIT_BG}"/>
 <g transform="translate(520 46) scale({s}) translate(-20 -37)" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
   {''.join(portrait)}
 </g>
