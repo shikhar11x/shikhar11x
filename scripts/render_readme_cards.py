@@ -404,8 +404,8 @@ def contact_card(name, label, detail, color, icon):
 <rect x="1" y="1" width="{width - 2}" height="{height - 2}" rx="14" fill="{PAPER}" stroke="{CARD_EDGE}" stroke-width="1.5"/>
 <rect x="16" y="18" width="40" height="40" rx="12" fill="{color}"/>
 {icon}
-<text x="126" y="38" text-anchor="middle" font-family="{SANS}" font-size="15" font-weight="600" fill="{INK}">{escape(label)}</text>
-<text x="126" y="59" text-anchor="middle" font-family="{MONO}" font-size="10" fill="{MUTED}">{escape(detail)}</text>
+<text x="126" y="40" text-anchor="middle" font-family="{SANS}" font-size="15" font-weight="600" fill="{INK}">{escape(label)}</text>
+<text x="126" y="61" text-anchor="middle" font-family="{MONO}" font-size="10" fill="{MUTED}">{escape(detail)}</text>
 <path d="M202 34l7 7-7 7m-6-7h13" fill="none" stroke="{color}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 """
     write(f"contact-{name}.svg", svg(width, height, body, ["sans-b", "mono"],

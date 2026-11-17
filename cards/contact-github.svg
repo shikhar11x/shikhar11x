@@ -30,7 +30,7 @@
 <rect x="1" y="1" width="218" height="90" rx="14" fill="#0a0711" stroke="#76539a" stroke-width="1.5"/>
 <rect x="16" y="18" width="40" height="40" rx="12" fill="#7837b5"/>
 <circle cx="36" cy="38" r="12" fill="none" stroke="#fff" stroke-width="2"/><path d="M31 39l5-5 5 5m-5-5v10" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="126" y="38" text-anchor="middle" font-family="Geist, system-ui, -apple-system, sans-serif" font-size="15" font-weight="600" fill="#f7f0ff">GitHub</text>
-<text x="126" y="59" text-anchor="middle" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" fill="#a896ba">github.com/shikhar11x</text>
+<text x="126" y="40" text-anchor="middle" font-family="Geist, system-ui, -apple-system, sans-serif" font-size="15" font-weight="600" fill="#f7f0ff">GitHub</text>
+<text x="126" y="61" text-anchor="middle" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" fill="#a896ba">github.com/shikhar11x</text>
 <path d="M202 34l7 7-7 7m-6-7h13" fill="none" stroke="#7837b5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
