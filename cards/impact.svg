@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-labelledby="title description">
+  <title id="title">Highlights</title>
+  <desc id="description">Shikhar's portfolio highlights: 9 plus projects, 20 thousand plus users, 3 plus hackathons, and B.Tech graduation in 2027.</desc>
+  <rect x="1" y="1" width="1198" height="148" rx="20" fill="#101827" stroke="#293447" stroke-width="2" />
+  <path d="M300 29V121M600 29V121M900 29V121" stroke="#293447" />
+  <text x="50" y="70" fill="#F5B301" font-family="Segoe UI, Arial, sans-serif" font-size="36" font-weight="750">9+</text>
+  <text x="50" y="101" fill="#AAB6C8" font-family="Segoe UI, Arial, sans-serif" font-size="15" letter-spacing="1">PROJECTS</text>
+  <text x="350" y="70" fill="#F5B301" font-family="Segoe UI, Arial, sans-serif" font-size="36" font-weight="750">20K+</text>
+  <text x="350" y="101" fill="#AAB6C8" font-family="Segoe UI, Arial, sans-serif" font-size="15" letter-spacing="1">APP USERS</text>
+  <text x="650" y="70" fill="#F5B301" font-family="Segoe UI, Arial, sans-serif" font-size="36" font-weight="750">3+</text>
+  <text x="650" y="101" fill="#AAB6C8" font-family="Segoe UI, Arial, sans-serif" font-size="15" letter-spacing="1">HACKATHONS</text>
+  <text x="950" y="70" fill="#F5B301" font-family="Segoe UI, Arial, sans-serif" font-size="36" font-weight="750">2027</text>
+  <text x="950" y="101" fill="#AAB6C8" font-family="Segoe UI, Arial, sans-serif" font-size="15" letter-spacing="1">B.TECH CSE</text>
+</svg>

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img" aria-labelledby="title description">
+  <title id="title">Shikhar Bajpai — Flutter developer</title>
+  <desc id="description">A dark, amber-accented profile banner with Shikhar's role, education, and a small mobile code illustration.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#101827" />
+      <stop offset="1" stop-color="#080D16" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#F5B301" />
+      <stop offset="1" stop-color="#FF8A3D" />
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop stop-color="#F5B301" stop-opacity=".2" />
+      <stop offset="1" stop-color="#F5B301" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="390" rx="26" fill="url(#background)" />
+  <circle cx="1000" cy="170" r="290" fill="url(#glow)" />
+  <path d="M0 315H1200" stroke="#293447" />
+  <path d="M34 34V78M34 34H78" stroke="url(#accent)" stroke-width="3" />
+  <circle cx="1150" cy="48" r="3" fill="#F5B301" opacity=".8" />
+  <circle cx="1170" cy="48" r="3" fill="#F5B301" opacity=".45" />
+  <circle cx="1150" cy="68" r="3" fill="#F5B301" opacity=".45" />
+  <text x="64" y="92" fill="#F5B301" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="3">MOBILE DEVELOPMENT · PRODUCT BUILDING</text>
+  <text x="60" y="174" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="58" font-weight="750">Shikhar Bajpai</text>
+  <text x="64" y="218" fill="#D9E1EC" font-family="Segoe UI, Arial, sans-serif" font-size="24">Flutter developer creating useful, polished apps.</text>
+  <rect x="64" y="247" width="310" height="38" rx="19" fill="#182235" stroke="#34445C" />
+  <circle cx="84" cy="266" r="5" fill="#F5B301" />
+  <text x="100" y="272" fill="#E5EAF1" font-family="Segoe UI, Arial, sans-serif" font-size="15">B.Tech CSE · KR Mangalam University · 2027</text>
+  <rect x="856" y="69" width="236" height="212" rx="20" fill="#0B111C" stroke="#39465A" stroke-width="2" />
+  <path d="M856 113H1092" stroke="#39465A" />
+  <circle cx="881" cy="91" r="5" fill="#FF6B6B" />
+  <circle cx="899" cy="91" r="5" fill="#F5B301" />
+  <circle cx="917" cy="91" r="5" fill="#4ADE80" />
+  <rect x="881" y="132" width="58" height="118" rx="12" fill="#111C2C" stroke="#516078" />
+  <rect x="900" y="140" width="20" height="3" rx="2" fill="#718096" />
+  <rect x="892" y="158" width="37" height="5" rx="2" fill="#F5B301" opacity=".95" />
+  <rect x="892" y="173" width="29" height="5" rx="2" fill="#8CB4FF" opacity=".9" />
+  <rect x="892" y="188" width="39" height="5" rx="2" fill="#D9E1EC" opacity=".72" />
+  <rect x="892" y="203" width="25" height="5" rx="2" fill="#8CB4FF" opacity=".9" />
+  <rect x="892" y="218" width="34" height="5" rx="2" fill="#D9E1EC" opacity=".5" />
+  <text x="961" y="161" fill="#F5B301" font-family="Consolas, monospace" font-size="14">build()</text>
+  <text x="961" y="185" fill="#D9E1EC" font-family="Consolas, monospace" font-size="14">ideas into</text>
+  <text x="961" y="209" fill="#D9E1EC" font-family="Consolas, monospace" font-size="14">mobile apps</text>
+  <text x="64" y="355" fill="#AAB6C8" font-family="Segoe UI, Arial, sans-serif" font-size="14" letter-spacing="1">FLUTTER</text>
+  <circle cx="151" cy="350" r="3" fill="#F5B301" />
+  <text x="167" y="355" fill="#AAB6C8" font-family="Segoe UI, Arial, sans-serif" font-size="14" letter-spacing="1">DART</text>
+  <circle cx="232" cy="350" r="3" fill="#F5B301" />
+  <text x="248" y="355" fill="#AAB6C8" font-family="Segoe UI, Arial, sans-serif" font-size="14" letter-spacing="1">FIREBASE · SUPABASE · IOT</text>
+</svg>

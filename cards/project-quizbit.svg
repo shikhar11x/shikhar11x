@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="176" viewBox="0 0 440 176" role="img" aria-labelledby="title description">
+  <title id="title">Flutter-quizBit</title>
+  <desc id="description">An interactive quiz app designed for smooth and engaging learning.</desc>
+  <rect x="1" y="1" width="438" height="174" rx="18" fill="#101827" stroke="#35435A" stroke-width="2" />
+  <rect x="1" y="1" width="6" height="174" rx="3" fill="#B99BFF" />
+  <text x="28" y="39" fill="#B99BFF" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="2">LEARNING · FLUTTER</text>
+  <text x="28" y="79" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="700">Flutter-quizBit</text>
+  <text x="28" y="111" fill="#B6C2D2" font-family="Segoe UI, Arial, sans-serif" font-size="14">Interactive quizzes built for</text>
+  <text x="28" y="133" fill="#B6C2D2" font-family="Segoe UI, Arial, sans-serif" font-size="14">a smooth, engaging experience.</text>
+  <circle cx="376" cy="81" r="30" fill="#182235" stroke="#B99BFF" stroke-width="2" />
+  <text x="366" y="93" fill="#B99BFF" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700">?</text>
+</svg>

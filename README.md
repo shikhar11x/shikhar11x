@@ -1,69 +1,50 @@
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?color=FFFFFF&size=36&center=true&vCenter=true&width=800&speed=40&loop=false&lines=Shikhar+Bajpai"/>
-</p>
+<div align="center">
+  <img src="cards/hero.svg" width="100%" alt="Shikhar Bajpai — Flutter developer and B.Tech CSE student" />
+  <br /><br />
+  <a href="https://www.shikhar-xi.me/"><img src="https://img.shields.io/badge/Portfolio-Visit-101827?style=for-the-badge&logo=firefoxbrowser&logoColor=F5B301" alt="Portfolio" /></a>
+  <a href="https://www.linkedin.com/in/shikharbajpai1/"><img src="https://img.shields.io/badge/LinkedIn-Connect-101827?style=for-the-badge&logo=linkedin&logoColor=0A66C2" alt="LinkedIn" /></a>
+  <a href="mailto:shikhar11x@gmail.com"><img src="https://img.shields.io/badge/Email-Say_hello-101827?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="Email" /></a>
+</div>
+
+<br />
 
 <p align="center">
-  <img src="https://img.shields.io/badge/CSE%20Undergraduate-Mobile%20Dev%20%7C%20Data%20Analytics-0A3D91?style=for-the-badge&logo=code&logoColor=white&color=E53935"/>
+  <img src="cards/impact.svg" width="100%" alt="9 plus projects, 20 thousand plus users, 3 plus hackathons, graduating in 2027" />
 </p>
 
-<p align="center">
-  <a href="https://www.shikhar-xi.me/">
-    <img src="https://img.shields.io/badge/%20Portfolio-02569B?style=for-the-badge&logo=flutter&logoColor=white"/>
-  </a>
+### A few things I build with
+
+<p>
+  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter" />
+  <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" alt="Dart" />
+  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase" />
+  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase" />
+  <img src="https://img.shields.io/badge/REST_APIs-222222?style=for-the-badge&logo=fastapi&logoColor=white" alt="REST APIs" />
+  <img src="https://img.shields.io/badge/IoT_%26_Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white" alt="IoT and Arduino" />
 </p>
 
+### Selected projects
 
-<p align="center"><b> Tech Stack</b></p>
+<div>
+  <a href="https://github.com/shikhar11x/bookmygroom"><img src="cards/project-bookmygroom.svg" width="32%" alt="BookMyGroom — salon booking app" /></a>
+  <a href="https://github.com/shikhar11x/Flutter-codeLink"><img src="cards/project-codelink.svg" width="32%" alt="Flutter-codeLink — collaborative code editor" /></a>
+  <a href="https://github.com/shikhar11x/Flutter-quizBit"><img src="cards/project-quizbit.svg" width="32%" alt="Flutter-quizBit — interactive quiz app" /></a>
+</div>
 
-<p align="center"><b> Languages</b></p>
+### GitHub activity
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white"/>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white"/>
+<p>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=shikhar11x&theme=tokyonight" alt="Shikhar's GitHub profile summary" />
 </p>
 
-
-
-<p align="center"><b> Technologies / Frameworks</b></p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white"/>
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"/>
+<p>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=shikhar11x&theme=tokyo-night&hide_border=true" alt="Shikhar's GitHub contribution activity" />
 </p>
 
+<div align="center">
 
-<p align="center"><b> Tools</b></p>
+Open to Flutter internships, freelance projects, and exciting collaborations.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Android%20Studio-3DDC84?style=for-the-badge&logo=androidstudio&logoColor=white"/>
-  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github"/>
-  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma"/>
-</p>
+[Explore all my projects →](https://github.com/shikhar11x?tab=repositories)
 
-
-<p align="center"><b> Connect With Me</b></p>
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/shikharbajpai1/">
-    <img src="https://img.shields.io/badge/LinkedIn-Shikhar%20Bajpai-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
-  <a href="https://leetcode.com/u/shikhar11X_/">
-    <img src="https://img.shields.io/badge/LeetCode-Profile-FFA116?style=for-the-badge&logo=leetcode&logoColor=black"/>
-  </a>
-  <a href="mailto:shikhar11x@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
-  </a>
-</p>
-
-
-
-
+</div>

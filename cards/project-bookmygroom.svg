@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="176" viewBox="0 0 440 176" role="img" aria-labelledby="title description">
+  <title id="title">BookMyGroom</title>
+  <desc id="description">A Flutter and Supabase salon booking app with appointments, payments, and a live staff queue.</desc>
+  <rect x="1" y="1" width="438" height="174" rx="18" fill="#101827" stroke="#35435A" stroke-width="2" />
+  <rect x="1" y="1" width="6" height="174" rx="3" fill="#F5B301" />
+  <text x="28" y="39" fill="#F5B301" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="2">FLUTTER · SUPABASE</text>
+  <text x="28" y="79" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="700">BookMyGroom</text>
+  <text x="28" y="111" fill="#B6C2D2" font-family="Segoe UI, Arial, sans-serif" font-size="14">Salon bookings, online payments,</text>
+  <text x="28" y="133" fill="#B6C2D2" font-family="Segoe UI, Arial, sans-serif" font-size="14">and a live staff queue.</text>
+  <path d="M366 53h38v54h-38z" fill="#182235" stroke="#F5B301" stroke-width="2" />
+  <path d="M376 66h18M376 76h18M376 86h12" stroke="#F5B301" stroke-width="3" stroke-linecap="round" />
+</svg>
