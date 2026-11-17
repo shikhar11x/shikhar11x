@@ -23,14 +23,14 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 SRC = sys.argv[1] if len(sys.argv) > 1 else os.path.join(HERE, "..", "data", "contributions.json")
 OUT = sys.argv[2] if len(sys.argv) > 2 else os.path.join(HERE, "..", "stats.svg")
 
-BG = "#0d1117"
-BG2 = "#111722"
-TILE = "#161b22"
-FRAME = "#30363d"
-MUTED = "#7d8590"
-INK = "#e6edf3"
-GREEN = "#39d353"
-BAR = "#26a641"
+BG = "#0a0711"
+BG2 = "#140b20"
+TILE = "#1a1028"
+FRAME = "#39264f"
+MUTED = "#b1a2c0"
+INK = "#f5edff"
+PURPLE = "#a94dff"
+BAR = "#65339b"
 
 W, H = 840, 880                      # == avi-ascii.svg canvas
 PAD = 20
@@ -68,7 +68,7 @@ n_days = len(data["days"])
 
 # (label, value, suffix, caption, accent)
 tiles = [
-    ("current streak", cur["length"], " days", span(cur), GREEN),
+    ("current streak", cur["length"], " days", span(cur), PURPLE),
     ("longest streak", lng["length"], " days", span(lng), INK),
     ("contributions", data["total_contributions"], "", "in the last year", INK),
     ("active days", data["active_days"], f" / {n_days}", f'{data["active_days"] / n_days:.0%} of the year', INK),
@@ -152,7 +152,7 @@ peak = max(m["total"] for m in monthly) or 1
 for i, m in enumerate(monthly):
     h = max(2, (plot_bot - plot_top) * m["total"] / peak)
     bx = plot_l + i * slot + (slot - bar_w) / 2
-    fill = GREEN if m["total"] == peak else BAR
+    fill = PURPLE if m["total"] == peak else BAR
     delay = BAR_START + i * BAR_STAGGER
     parts.append(f'<rect class="b" x="{bx:.1f}" y="{plot_bot - h:.1f}" width="{bar_w:.1f}" height="{h:.1f}" '
                  f'rx="3" fill="{fill}" style="animation-delay:{delay:.2f}s"/>')

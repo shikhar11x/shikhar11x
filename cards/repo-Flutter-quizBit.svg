@@ -27,11 +27,11 @@
 .rg{opacity:0;transform-box:fill-box;transform-origin:center;animation:ring 1s ease-out both}
 @media (prefers-reduced-motion: reduce){.r,.f,.g,.p,.live,.n,.nu,.ti,.sl,.ai,.ro,.rg{animation:none!important;opacity:1!important;transform:none!important}.sh,.rg{display:none}}
 </style><g transform="translate(8.000 0)">
-<rect width="285.3333333333333" height="176" rx="14" fill="#f3f3f1"/>
+<rect width="285.3333333333333" height="176" rx="14" fill="#0a0711"/>
 <g class="r" style="animation-delay:4.84s">
-  <rect x="24" y="30" width="8" height="8" rx="2" fill="#ffc81a"/>
-  <text x="40" y="39" font-family="Geist, system-ui, -apple-system, sans-serif" font-weight="600" font-size="18" fill="#111111">Flutter-quizBit</text>
-  <text x="24" y="72" font-family="Geist, system-ui, -apple-system, sans-serif" font-size="14" fill="#3a3a3c">Interactive quizzes designed for a</text><text x="24" y="93" font-family="Geist, system-ui, -apple-system, sans-serif" font-size="14" fill="#3a3a3c">smooth learning experience.</text>
-  <text x="24" y="152" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#6e6e73">Flutter · Dart  ·  GitHub</text>
+  <rect x="24" y="30" width="8" height="8" rx="2" fill="#a96bff"/>
+  <text x="40" y="39" font-family="Geist, system-ui, -apple-system, sans-serif" font-weight="600" font-size="18" fill="#f7f0ff">Flutter-quizBit</text>
+  <text x="24" y="72" font-family="Geist, system-ui, -apple-system, sans-serif" font-size="14" fill="#d8c9e8">Interactive quizzes designed for a</text><text x="24" y="93" font-family="Geist, system-ui, -apple-system, sans-serif" font-size="14" fill="#d8c9e8">smooth learning experience.</text>
+  <text x="24" y="152" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#a896ba">Flutter · Dart  ·  GitHub</text>
 </g>
 </g></svg>

@@ -40,7 +40,7 @@ jobs:
       - name: Render streak / numbers card
         run: python scripts/render_stats_svg.py
 
-      - name: Render README cards (hero, tiles, activity, repos, blue graph)
+      - name: Render README cards (hero, tiles, activity, repos, purple graph)
         run: python scripts/render_readme_cards.py
 
       - name: Commit updated art

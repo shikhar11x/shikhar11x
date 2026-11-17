@@ -2,8 +2,8 @@
 """
 Render the profile README's cards as animated SVGs into cards/.
 
-Design: "Three Worlds" (paper, ink, and one colour per world: BUILD blue, IMPACT
-red, HACK yellow; Instrument Serif, Geist, Geist Mono).
+Design: "Three Worlds" (deep plum, soft white, and avatar-inspired violet accents;
+Instrument Serif, Geist, Geist Mono).
 
 Every card is a standalone SVG shown through <img>, so it can only use what GitHub
 allows there: inline CSS animations, SMIL and fonts embedded as data URIs (no JS,
@@ -34,15 +34,15 @@ APP_USERS = "20K+"
 HACKATHONS = "3+"
 
 # ---- brand tokens -----------------------------------------------------------
-PAPER = "#f3f3f1"
-PAPER_DEEP = "#e2e2de"
-INK = "#111111"
-INK_SOFT = "#3a3a3c"
-MUTED = "#6e6e73"
-RULE = "#dcdcd7"
-TECH = "#2f55ff"
-STUDIO = "#ef3b2d"
-LEARN = "#ffc81a"
+PAPER = "#0a0711"
+PAPER_DEEP = "#21162f"
+INK = "#f7f0ff"
+INK_SOFT = "#d8c9e8"
+MUTED = "#a896ba"
+RULE = "#38234d"
+TECH = "#941bff"
+STUDIO = "#bd3cff"
+LEARN = "#a96bff"
 W = 880  # full card width, GitHub's README column at 100%
 
 SERIF = "'Instrument Serif', Georgia, serif"
@@ -266,7 +266,7 @@ def activity(data):
         is_best = m is best
         bh = max(4, round(m["total"] / top * maxh))
         x = x0 + i * (bw + gap)
-        fill = TECH if is_best else ("#c9c9c4" if partial else INK)
+        fill = TECH if is_best else ("#39264a" if partial else INK)
         label = datetime.date.fromisoformat(m["month"] + "-01").strftime("%b")
         bars.append(
             f'<rect class="g" style="animation-delay:{2.2 + i * 0.07:.2f}s" x="{x:.1f}" y="{base - bh}" '
@@ -285,7 +285,7 @@ def activity(data):
     total_days = len(data["days"])
     stats = [
         (f'{cs} <tspan font-style="italic">days</tspan>', streak_note),
-        (f'{data["active_days"]}<tspan fill="#8e8e93"> / {total_days}</tspan>', "days with a commit"),
+        (f'{data["active_days"]}<tspan fill="{MUTED}"> / {total_days}</tspan>', "days with a commit"),
         (f'{data["best_day"]["count"]}', "on the busiest day"),
     ]
     side = []
@@ -335,7 +335,7 @@ def repo_card(i, name, desc, lang, color):
 
 
 def section_title(text, italic, theme):
-    fg = "#e6edf3" if theme == "dark" else INK
+    fg = INK
     body = (
         f'<text class="r" {d(4.4)} x="2" y="46" font-family="{SERIF}" font-size="34" fill="{fg}">{escape(text)} '
         f'<tspan font-style="italic">{escape(italic)}</tspan></text>'
@@ -375,7 +375,7 @@ def contact():
     contacts = [
         ("portfolio", "Portfolio", "shikhar-xi.me", TECH,
          '<path d="M27 29h18v18H27zM33 24h18v18" fill="none" stroke="#fff" stroke-width="2" stroke-linejoin="round"/>'),
-        ("github", "GitHub", "github.com/shikhar11x", INK,
+        ("github", "GitHub", "github.com/shikhar11x", "#7837b5",
          '<circle cx="36" cy="38" r="12" fill="none" stroke="#fff" stroke-width="2"/><path d="M31 39l5-5 5 5m-5-5v10" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>'),
         ("linkedin", "LinkedIn", "Connect professionally", "#0A66C2",
          '<text x="36" y="45" text-anchor="middle" font-family="Geist,Arial,sans-serif" font-size="22" font-weight="700" fill="#fff">in</text>'),
@@ -387,7 +387,7 @@ def contact():
 
 
 # ---- 5 · blue contribution graph -----------------------------------------------
-BLUE = [PAPER_DEEP, "#c8d3ff", "#94a8ff", "#6280ff", TECH, "#1a3be0"]
+PURPLE = [PAPER_DEEP, "#35114f", "#531b82", "#7125b3", TECH, "#c078ff"]
 
 
 def level_for(c):
@@ -411,7 +411,7 @@ def heatmap(data):
         delay = 1.0 + col * 0.03 + row * 0.02
         cells.append(
             f'<rect class="p" style="animation-delay:{delay:.2f}s" x="{gx + col * step}" y="{gy + row * step}" '
-            f'width="{cell}" height="{cell}" rx="3" fill="{BLUE[level_for(c)]}">'
+            f'width="{cell}" height="{cell}" rx="3" fill="{PURPLE[level_for(c)]}">'
             f'<title>{day["date"]}: {c} contribution{"s" if c != 1 else ""}</title></rect>'
         )
     ncols = (len(days) + lead + 6) // 7
@@ -420,21 +420,21 @@ def heatmap(data):
         f'<text x="{gx + col * step}" y="{gy + 7 * step + 16}" font-family="{MONO}" font-size="11" fill="{MUTED}">{m}</text>'
         for col, m in months if col < ncols - 12
     )
-    legend_x = right - len(BLUE) * 14
+    legend_x = right - len(PURPLE) * 14
     legend = "".join(
         f'<rect x="{legend_x + i * 14}" y="{gy + 7 * step + 6}" width="11" height="11" rx="2.5" fill="{c}"/>'
-        for i, c in enumerate(BLUE)
+        for i, c in enumerate(PURPLE)
     )
     h = gy + 7 * step + 44
     body = f"""
 <rect width="{W}" height="{h}" rx="14" fill="{PAPER}"/>
-<text class="r" {d(0.8)} x="42" y="62" font-family="{SERIF}" font-size="34" fill="{INK}">Every day, <tspan font-style="italic" fill="{TECH}">in blue</tspan></text>
+<text class="r" {d(0.8)} x="42" y="62" font-family="{SERIF}" font-size="34" fill="{INK}">Every day, <tspan font-style="italic" fill="{TECH}">in purple</tspan></text>
 <text class="f" {d(0.8)} x="{right}" y="60" text-anchor="end" font-family="{MONO}" font-size="12" letter-spacing="1" fill="{MUTED}">REFRESHED DAILY</text>
 {''.join(cells)}
 <g class="f" {d(2.4)}>{labels}
 <text x="{legend_x - 8}" y="{gy + 7 * step + 16}" text-anchor="end" font-family="{MONO}" font-size="11" fill="{MUTED}">less</text>
 {legend}
-<text x="{legend_x + len(BLUE) * 14 + 2}" y="{gy + 7 * step + 16}" font-family="{MONO}" font-size="11" fill="{MUTED}">more</text></g>
+<text x="{legend_x + len(PURPLE) * 14 + 2}" y="{gy + 7 * step + 16}" font-family="{MONO}" font-size="11" fill="{MUTED}">more</text></g>
 """
     write("heatmap.svg", svg(W, h, body, ["serif", "serif-i", "mono"],
                              f'Contribution graph: {data["total_contributions"]:,} contributions in the last year'))

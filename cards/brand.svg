@@ -35,7 +35,7 @@
 </defs>
 <g class="ti" style="animation-delay:3.35s">
   <g clip-path="url(#card)">
-    <rect width="285.3333333333333" height="210" fill="#ef3b2d"/>
+    <rect width="285.3333333333333" height="210" fill="#bd3cff"/>
     <circle class="rg" style="animation-delay:3.85s" cx="245.33333333333331" cy="170" r="60" fill="none" stroke="#ffffff" stroke-opacity=".5" stroke-width="2"/>
     <rect class="sh" style="animation-delay:4.75s" x="0" y="-20" width="90" height="250" fill="url(#gl)" transform="translate(-260 0)"/>
   </g>
