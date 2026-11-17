@@ -42,6 +42,7 @@ INK = "#f7f0ff"
 INK_SOFT = "#d8c9e8"
 MUTED = "#a896ba"
 RULE = "#38234d"
+CARD_EDGE = "#76539a"
 TECH = "#941bff"
 STUDIO = "#bd3cff"
 LEARN = "#a96bff"
@@ -124,6 +125,17 @@ def svg(w, h, body, fonts, label, extra_css="", left=0, right=0, bottom=BOTTOM):
     )
 
 
+def card_frame(w, h):
+    x = y = 1.25
+    width, height = w - 2.5, h - 2.5
+    return (
+        f'<rect x="{x}" y="{y}" width="{width}" height="{height}" rx="14" fill="none" '
+        f'stroke="{CARD_EDGE}" stroke-opacity=".18" stroke-width="4"/>'
+        f'<rect x="{x}" y="{y}" width="{width}" height="{height}" rx="14" fill="none" '
+        f'stroke="{CARD_EDGE}" stroke-width="1.5"/>'
+    )
+
+
 def write(name, content):
     os.makedirs(OUT, exist_ok=True)
     path = os.path.join(OUT, name)
@@ -201,6 +213,7 @@ def hero():
   </linearGradient>
 </defs>
 <rect width="{W}" height="{h}" rx="14" fill="{PAPER}"/>
+{card_frame(W, h)}
 <g class="f" {d(0)}>
   <rect class="live" x="48" y="49" width="8" height="8" rx="2" fill="{TECH}"/>
   <text x="66" y="57" font-family="{MONO}" font-size="12" letter-spacing="1" fill="{MUTED}">FLUTTER DEVELOPER · B.TECH CSE '27</text>
@@ -327,6 +340,7 @@ def activity(data):
             side.append(f'<rect class="f" {d(2.6)} x="650" y="{y + 44}" width="190" height="1" fill="{RULE}"/>')
     body = f"""
 <rect width="{W}" height="{h}" rx="14" fill="{PAPER}"/>
+{card_frame(W, h)}
 <text class="f" {d(1.9)} x="40" y="58" font-family="{MONO}" font-size="12" letter-spacing="1" fill="{MUTED}">THE LAST 12 MONTHS ON GITHUB</text>
 <text class="r" {d(2.0)} x="38" y="114" font-family="{SERIF}" font-size="52" fill="{INK}">{data["total_contributions"]:,} <tspan font-style="italic">contributions</tspan></text>
 {''.join(bars)}
@@ -349,7 +363,7 @@ def repo_card(i, name, desc, lang, color):
     delay = 4.6 + i * 0.12
     meta = f"{lang}  ·  GitHub"
     body = f"""
-<rect x="1" y="1" width="{REPO_W - 2}" height="{REPO_H - 2}" rx="14" fill="#100a1c" stroke="#63417f" stroke-width="1.5"/>
+<rect x="1" y="1" width="{REPO_W - 2}" height="{REPO_H - 2}" rx="14" fill="#100a1c" stroke="{CARD_EDGE}" stroke-width="1.8"/>
 <g class="r" {d(delay)}>
   <rect x="24" y="30" width="8" height="8" rx="2" fill="{color}"/>
   <text x="40" y="39" font-family="{SANS}" font-weight="600" font-size="18" fill="{INK}">{escape(name)}</text>
@@ -374,6 +388,7 @@ def section_title(text, italic, theme):
 def contact_title():
     body = f"""
 <rect width="{W}" height="164" rx="14" fill="{PAPER}"/>
+{card_frame(W, 164)}
 <rect x="42" y="34" width="8" height="8" rx="2" fill="{TECH}"/>
 <text x="62" y="42" font-family="{MONO}" font-size="12" letter-spacing="1" fill="{MUTED}">OPEN TO GOOD IDEAS</text>
 <text x="42" y="99" font-family="{SERIF}" font-size="48" fill="{INK}">Let's build <tspan font-style="italic" fill="{TECH}">something.</tspan></text>
@@ -386,7 +401,7 @@ def contact_title():
 def contact_card(name, label, detail, color, icon):
     width, height = 220, 92
     body = f"""
-<rect x="1" y="1" width="{width - 2}" height="{height - 2}" rx="14" fill="{PAPER}" stroke="{RULE}"/>
+<rect x="1" y="1" width="{width - 2}" height="{height - 2}" rx="14" fill="{PAPER}" stroke="{CARD_EDGE}" stroke-width="1.5"/>
 <rect x="16" y="18" width="40" height="40" rx="12" fill="{color}"/>
 {icon}
 <text x="68" y="38" font-family="{SANS}" font-size="15" font-weight="600" fill="{INK}">{escape(label)}</text>
@@ -455,6 +470,7 @@ def heatmap(data):
     h = gy + 7 * step + 44
     body = f"""
 <rect width="{W}" height="{h}" rx="14" fill="{PAPER}"/>
+{card_frame(W, h)}
 <text class="r" {d(0.8)} x="42" y="62" font-family="{SERIF}" font-size="34" fill="{INK}">Every day, <tspan font-style="italic" fill="{TECH}">in purple</tspan></text>
 <text class="f" {d(0.8)} x="{right}" y="60" text-anchor="end" font-family="{MONO}" font-size="12" letter-spacing="1" fill="{MUTED}">REFRESHED DAILY</text>
 {''.join(cells)}

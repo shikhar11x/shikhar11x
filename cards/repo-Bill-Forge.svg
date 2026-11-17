@@ -27,7 +27,7 @@
 .rg{opacity:0;transform-box:fill-box;transform-origin:center;animation:ring 1s ease-out both}
 @media (prefers-reduced-motion: reduce){.r,.f,.g,.p,.live,.n,.nu,.ti,.sl,.ai,.ro,.rg{animation:none!important;opacity:1!important;transform:none!important}.sh,.rg{display:none}}
 </style><g transform="translate(4.000 0)">
-<rect x="1" y="1" width="283.3333333333333" height="174" rx="14" fill="#100a1c" stroke="#63417f" stroke-width="1.5"/>
+<rect x="1" y="1" width="283.3333333333333" height="174" rx="14" fill="#100a1c" stroke="#76539a" stroke-width="1.8"/>
 <g class="r" style="animation-delay:4.72s">
   <rect x="24" y="30" width="8" height="8" rx="2" fill="#a96bff"/>
   <text x="40" y="39" font-family="Geist, system-ui, -apple-system, sans-serif" font-weight="600" font-size="18" fill="#f7f0ff">Bill-Forge</text>
