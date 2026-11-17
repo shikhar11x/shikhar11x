@@ -33,7 +33,6 @@ PORTRAIT_SOURCE = os.path.join(ROOT, "source-photo.png")
 
 # ---- portfolio highlights ---------------------------------------------------
 PROJECTS = "9+"
-APP_USERS = "20K+"
 HACKATHONS = "3+"
 
 # ---- brand tokens -----------------------------------------------------------
@@ -230,9 +229,11 @@ TILE_W, TILE_H = 880 / 3 - 8, 210  # 285.33: two 12px gaps across the row
 def count_up(num, word, x, y, attrs, begin, dur=1.1, frames=18):
     """Number counts up from 0 with SMIL <set> frames (works inside <img>), easing out."""
     m = re.match(r"([\d.]+)(.*)", num)
+    tail = f' <tspan font-style="italic">{escape(word)}</tspan>'
+    if not m:
+        return f'<text x="{x}" y="{y}" {attrs}>{escape(num)}{tail}</text>'
     val, suf = float(m.group(1)), m.group(2)
     dec = len(m.group(1).split(".")[1]) if "." in m.group(1) else 0
-    tail = f' <tspan font-style="italic">{escape(word)}</tspan>'
     if os.environ.get("STATIC"):
         return f'<text x="{x}" y="{y}" {attrs}>{escape(num)}{tail}</text>'
     out = []
@@ -338,9 +339,9 @@ def activity(data):
 # ---- 4 · repo cards -----------------------------------------------------------
 REPO_W, REPO_H = 880 / 3 - 8, 176
 REPOS = [
-    ("bookmygroom", "Salon booking, online payments, and a live staff queue.", "Flutter · Supabase", TECH),
     ("Flutter-codeLink", "A collaborative code editor with live sync and online execution.", "Flutter Web", STUDIO),
-    ("Flutter-quizBit", "Interactive quizzes designed for a smooth learning experience.", "Flutter · Dart", LEARN),
+    ("Bill-Forge", "Offline-first billing, inventory, and shop management.", "Flutter · Dart", LEARN),
+    ("bookmygroom", "Salon booking, online payments, and a live staff queue.", "Flutter · Supabase", TECH),
 ]
 
 
@@ -472,8 +473,8 @@ if __name__ == "__main__":
     hero()
     tile("build", "BUILD", TECH, "#ffffff", PROJECTS, "projects",
          "Flutter apps built for real-world needs.", 3.1, 0)
-    tile("brand", "IMPACT", STUDIO, "#ffffff", APP_USERS, "users",
-         "Apps used by people across my projects.", 3.35, 1)
+    tile("brand", "FOCUS", STUDIO, "#ffffff", "Flutter", "apps",
+         "Building polished mobile experiences with Flutter.", 3.35, 1)
     tile("learn", "HACK", LEARN, INK, HACKATHONS, "hackathons",
          "Learning and building with teams.", 3.6, 2)
     activity(data)
