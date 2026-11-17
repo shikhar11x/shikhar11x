@@ -343,6 +343,49 @@ def section_title(text, italic, theme):
     write(f"title-coding-{theme}.svg", svg(W, 64, body, ["serif", "serif-i"], f"{text} {italic}", bottom=0))
 
 
+# ---- 5 · contact --------------------------------------------------------------
+def contact_title():
+    body = f"""
+<rect width="{W}" height="164" rx="14" fill="{PAPER}"/>
+<rect x="42" y="34" width="8" height="8" rx="2" fill="{TECH}"/>
+<text x="62" y="42" font-family="{MONO}" font-size="12" letter-spacing="1" fill="{MUTED}">OPEN TO GOOD IDEAS</text>
+<text x="42" y="99" font-family="{SERIF}" font-size="48" fill="{INK}">Let's build <tspan font-style="italic" fill="{TECH}">something.</tspan></text>
+<text x="44" y="132" font-family="{SANS}" font-size="16" fill="{INK_SOFT}">Open to Flutter internships, freelance projects and exciting collaborations.</text>
+"""
+    write("contact-title.svg", svg(W, 164, body, ["serif", "serif-i", "sans", "mono"],
+                                  "Let's build something. Open to Flutter internships, freelance projects, and collaborations."))
+
+
+def contact_card(name, label, detail, color, icon):
+    width, height = 220, 92
+    body = f"""
+<rect x="1" y="1" width="{width - 2}" height="{height - 2}" rx="14" fill="{PAPER}" stroke="{RULE}"/>
+<rect x="16" y="18" width="40" height="40" rx="12" fill="{color}"/>
+{icon}
+<text x="68" y="38" font-family="{SANS}" font-size="15" font-weight="600" fill="{INK}">{escape(label)}</text>
+<text x="68" y="59" font-family="{MONO}" font-size="11" fill="{MUTED}">{escape(detail)}</text>
+<path d="M194 34l7 7-7 7m-6-7h13" fill="none" stroke="{color}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+"""
+    write(f"contact-{name}.svg", svg(width, height, body, ["sans-b", "mono"],
+                                     f"{label}: {detail}", bottom=0))
+
+
+def contact():
+    contact_title()
+    contacts = [
+        ("portfolio", "Portfolio", "shikhar-xi.me", TECH,
+         '<path d="M27 29h18v18H27zM33 24h18v18" fill="none" stroke="#fff" stroke-width="2" stroke-linejoin="round"/>'),
+        ("github", "GitHub", "github.com/shikhar11x", INK,
+         '<circle cx="36" cy="38" r="12" fill="none" stroke="#fff" stroke-width="2"/><path d="M31 39l5-5 5 5m-5-5v10" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>'),
+        ("linkedin", "LinkedIn", "Connect professionally", "#0A66C2",
+         '<text x="36" y="45" text-anchor="middle" font-family="Geist,Arial,sans-serif" font-size="22" font-weight="700" fill="#fff">in</text>'),
+        ("email", "Email", "Say hello", STUDIO,
+         '<rect x="25" y="29" width="22" height="16" rx="3" fill="none" stroke="#fff" stroke-width="2"/><path d="m26 31 10 8 10-8" fill="none" stroke="#fff" stroke-width="2" stroke-linejoin="round"/>'),
+    ]
+    for name, label, detail, color, icon in contacts:
+        contact_card(name, label, detail, color, icon)
+
+
 # ---- 5 · blue contribution graph -----------------------------------------------
 BLUE = [PAPER_DEEP, "#c8d3ff", "#94a8ff", "#6280ff", TECH, "#1a3be0"]
 
@@ -413,3 +456,4 @@ if __name__ == "__main__":
     section_title("What I'm", "coding", "dark")
     section_title("What I'm", "coding", "light")
     heatmap(data)
+    contact()
