@@ -43,6 +43,8 @@ RULE = "#38234d"
 TECH = "#941bff"
 STUDIO = "#bd3cff"
 LEARN = "#a96bff"
+PORTRAIT_BG = "#f3f3f1"
+PORTRAIT_INK = "#111111"
 W = 880  # full card width, GitHub's README column at 100%
 
 SERIF = "'Instrument Serif', Georgia, serif"
@@ -161,7 +163,7 @@ def hero():
         # rows "print" top to bottom like a slow terminal
         portrait.append(
             f'<text class="f" style="animation-delay:{0.25 + i * 0.018:.3f}s;animation-duration:.35s" '
-            f'xml:space="preserve" x="20" y="{y}" fill="{INK}" font-size="7.2" '
+            f'xml:space="preserve" x="20" y="{y}" fill="{PORTRAIT_INK}" font-size="7.2" '
             f'textLength="800" lengthAdjust="spacing">{txt}</text>'
         )
     s = 0.41
@@ -189,6 +191,7 @@ def hero():
   <text x="48" y="396" font-family="{MONO}" font-size="13" fill="{INK}">shikhar-xi.me</text>
   <text class="nu" x="186" y="396" font-family="{MONO}" font-size="13" fill="{TECH}">&#8599;</text>
 </g>
+<rect x="520" y="31" width="344" height="361" fill="{PORTRAIT_BG}"/>
 <g transform="translate(520 46) scale({s}) translate(-20 -37)" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
   {''.join(portrait)}
 </g>
