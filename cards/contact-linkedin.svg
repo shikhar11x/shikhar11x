@@ -30,7 +30,7 @@
 <rect x="1" y="1" width="218" height="90" rx="14" fill="#0a0711" stroke="#76539a" stroke-width="1.5"/>
 <rect x="16" y="18" width="40" height="40" rx="12" fill="#0A66C2"/>
 <text x="36" y="45" text-anchor="middle" font-family="Geist,Arial,sans-serif" font-size="22" font-weight="700" fill="#fff">in</text>
-<text x="68" y="38" font-family="Geist, system-ui, -apple-system, sans-serif" font-size="15" font-weight="600" fill="#f7f0ff">LinkedIn</text>
-<text x="68" y="59" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#a896ba">Connect professionally</text>
-<path d="M194 34l7 7-7 7m-6-7h13" fill="none" stroke="#0A66C2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="126" y="38" text-anchor="middle" font-family="Geist, system-ui, -apple-system, sans-serif" font-size="15" font-weight="600" fill="#f7f0ff">LinkedIn</text>
+<text x="126" y="59" text-anchor="middle" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" fill="#a896ba">Connect professionally</text>
+<path d="M202 34l7 7-7 7m-6-7h13" fill="none" stroke="#0A66C2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

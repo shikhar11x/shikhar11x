@@ -30,7 +30,7 @@
 <rect x="1" y="1" width="218" height="90" rx="14" fill="#0a0711" stroke="#76539a" stroke-width="1.5"/>
 <rect x="16" y="18" width="40" height="40" rx="12" fill="#bd3cff"/>
 <rect x="25" y="29" width="22" height="16" rx="3" fill="none" stroke="#fff" stroke-width="2"/><path d="m26 31 10 8 10-8" fill="none" stroke="#fff" stroke-width="2" stroke-linejoin="round"/>
-<text x="68" y="38" font-family="Geist, system-ui, -apple-system, sans-serif" font-size="15" font-weight="600" fill="#f7f0ff">Email</text>
-<text x="68" y="59" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#a896ba">Say hello</text>
-<path d="M194 34l7 7-7 7m-6-7h13" fill="none" stroke="#bd3cff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="126" y="38" text-anchor="middle" font-family="Geist, system-ui, -apple-system, sans-serif" font-size="15" font-weight="600" fill="#f7f0ff">Email</text>
+<text x="126" y="59" text-anchor="middle" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" fill="#a896ba">Say hello</text>
+<path d="M202 34l7 7-7 7m-6-7h13" fill="none" stroke="#bd3cff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
