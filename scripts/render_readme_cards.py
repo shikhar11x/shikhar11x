@@ -322,7 +322,8 @@ def repo_card(i, name, desc, lang, color):
     delay = 4.6 + i * 0.12
     meta = f"{lang}  ·  GitHub"
     body = f"""
-<rect width="{REPO_W}" height="{REPO_H}" rx="14" fill="{PAPER}"/>
+<rect x="1" y="1" width="{REPO_W - 2}" height="{REPO_H - 2}" rx="14" fill="#100a1c" stroke="#63417f" stroke-width="1.5"/>
+<rect x="2" y="2" width="{REPO_W - 4}" height="3" rx="1.5" fill="{color}" opacity=".75"/>
 <g class="r" {d(delay)}>
   <rect x="24" y="30" width="8" height="8" rx="2" fill="{color}"/>
   <text x="40" y="39" font-family="{SANS}" font-weight="600" font-size="18" fill="{INK}">{escape(name)}</text>
